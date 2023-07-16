@@ -1,16 +1,16 @@
 import Image from 'next/image'
 import { AiFillFacebook, AiFillTwitterSquare, AiFillInstagram, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
-import HeroImage from '../assets/mufti_menk.jpg'
+import HeroImage from '../../assets/mufti_menk.jpg'
 
 
 const Hero = () => {
     return (
         <div className="flex gap-5 p-5 justify-evenly items-center">
             <div>
-                <Image src={HeroImage} alt="image of mufti menk" height={2000} width={2000}/>
+                <Image src={HeroImage} alt="image of mufti menk" height={2500} width={2500}/>
             </div>
-            <div className="flex flex-col gap-3">
-                <h1 className="text-5xl text-blue-500">Mufti Menk</h1>
+            <div className="flex flex-col gap-5">
+                <h1 className="text-5xl text-gray-600">Mufti Menk</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nisi facere omnis, nulla repellat recusandae molestias. Qui beatae vel dolore corrupti excepturi ut, ipsum libero deleniti itaque sint impedit quasi aperiam quia, consequuntur earum placeat maxime laboriosam veritatis? Dignissimos dolorem neque voluptas quidem fugit voluptate voluptates minima? Odit quis, blanditiis quisquam commodi sapiente quaerat autem totam itaque in sunt quo molestias illo veniam, adipisci neque.</p>
                 <ul className="flex gap-2 text-4xl text-blue-500">
                     <li><AiFillFacebook/></li>
